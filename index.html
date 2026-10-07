@@ -1,90 +1,72 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>My Website</title>
 
-   <title>My Website</title>
-
-
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 
 <body>
 
+    <!-- Achtergrond -->
+    <div class="background"></div>
 
-   <!-- Achtergrond -->
-   <div class="background"></div>
+    <!-- Navigatiebalk -->
+    <header class="navbar">
 
+        <a href="pagina2.html" class="logo">
+            pagina 2
+        </a>
 
-   <!-- Navigatiebalk -->
-   <header class="navbar">
-      <a href="pagina2.html" class="logo">
-        pagina 2
-      </a>
-     <a href="pagina3.html" class="logo">
-        pagina 3
-     </a>
+        <a href="pagina3.html" class="logo">
+            pagina 3
+        </a>
 
+        <div class="logo">
+            Welcome to my website
+        </div>
 
-       <div class="logo">
-           Welcome to my website
-       </div>
+        <div class="search-container">
+            <input
+                type="search"
+                placeholder="Search..."
+                aria-label="Search"
+            >
 
+            <button type="button" aria-label="Search">
+                🔍
+            </button>
+        </div>
 
-       <div class="search-container">
-           <input
-               type="search"
-               placeholder="Search..."
-               aria-label="Search"
-           >
+    </header>
 
+    <!-- Hoofdcontent -->
+    <main>
 
-           <button type="button" aria-label="Search">
-               🔍
-           </button>
-       </div>
+        <section class="intro-card">
 
+            <h1>Introduction</h1>
 
-   </header>
+            <p>
+                Welcome to my website!
+            </p>
 
+            <p>
+                Dit is mijn persoonlijke website. Hier kun je meer
+                informatie vinden over mij, mijn projecten en mijn
+                interesses.
+            </p>
 
+            <button class="learn-more">
+                Learn More
+            </button>
 
+        </section>
 
-   <!-- Hoofdcontent -->
-   <main>
-
-
-       <section class="intro-card">
-
-
-           <h1>Introduction</h1>
-
-
-           <p>
-               Welcome to my website!
-           </p>
-
-
-           <p>
-               Dit is mijn persoonlijke website. Hier kun je meer
-               informatie vinden over mij, mijn projecten en mijn
-               interesses.
-           </p>
-
-
-           <button class="learn-more">
-               Learn More
-           </button>
-
-
-       </section>
-
-
-   </main>
-
+    </main>
 
 </body>
 </html>
