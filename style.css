@@ -152,7 +152,7 @@ body {
 
 
 .search-container:focus-within {
-   background: rgba(255, 255, 255, 0.28);
+   background: rgba(45, 12, 98, 0.861);
 
 
    box-shadow:
@@ -252,7 +252,7 @@ main {
    text-align: center;
 
 
-   border: 1px solid rgba(255, 255, 255, 0.4);
+   border: 1px solid rgba(47, 33, 127, 0.826);
    border-radius: 25px;
 
 
@@ -302,7 +302,7 @@ main {
    line-height: 1.7;
 
 
-   color: rgba(255, 255, 255, 0.95);
+   color: rgba(35, 49, 143, 0.95);
 
 
    text-shadow:
@@ -324,14 +324,14 @@ main {
    padding: 13px 28px;
 
 
-   border: 1px solid rgba(255, 255, 255, 0.5);
+   border: 1px solid rgba(237, 122, 202, 0.895);
    border-radius: 50px;
 
 
-   background: rgba(255, 255, 255, 0.2);
+   background: rgba(184, 85, 176, 0.878);
 
 
-   color: white;
+   color: rgb(178, 90, 128);
 
 
    font-size: 15px;
