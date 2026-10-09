@@ -14,6 +14,29 @@
             color: #5c454b;
         }
 
+        /* Navigatiemenu */
+        nav {
+            background-color: #fff0b8;
+            padding: 18px 10px;
+            text-align: center;
+            border-bottom: 2px solid #f3dfa0;
+        }
+
+        nav a {
+            display: inline-block;
+            color: #8f5d6b;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 8px 14px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #c27691;
+            text-decoration: underline;
+        }
+
+        /* Bovenkant */
         header {
             background-color: #f9dce4;
             text-align: center;
@@ -32,6 +55,7 @@
             color: #80636b;
         }
 
+        /* Informatieblokjes */
         .container {
             max-width: 1000px;
             margin: 40px auto;
@@ -76,6 +100,7 @@
             font-size: 15px;
         }
 
+        /* Onderaan de pagina */
         footer {
             text-align: center;
             padding: 25px 15px;
@@ -83,6 +108,7 @@
             font-size: 14px;
         }
 
+        /* Mobiele weergave */
         @media (max-width: 600px) {
             .blokken {
                 grid-template-columns: 1fr;
@@ -91,11 +117,22 @@
             header h1 {
                 font-size: 28px;
             }
+
+            nav a {
+                margin: 8px;
+            }
         }
     </style>
 </head>
 
 <body>
+
+    <!-- Navigatie naar je andere pagina's -->
+    <nav>
+        <a href="index.html">♡ Home</a>
+        <a href="pagina2.html">Pagina 2</a>
+        <a href="pagina3.html">Pagina 3</a>
+    </nav>
 
     <header>
         <h1>♡ Mijn informatie ♡</h1>
