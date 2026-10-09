@@ -1,21 +1,100 @@
-<!DOCTYPE html> <!--tweede pagina-->
-<html> <!--html element-->
-   <head>
-       <title> about me</title>
-       <link rel="stylesheet" href="style.css">
-       <meta charset="utf-8">
-   </head>
-   <body>
-       hallo, ik ben Isa en dit is mijn website
-     
-       <ul>
-           <li><a href="index.html">★ Homepage</a></li>
-           <li><a href="pagina2.html">★ About me</a></li>
-           <li><a href="pagina3.html">★ Informatie</a></li>
-       </ul>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 2 - Het binaire stelsel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
 
+    <!-- Navigatiebalk -->
+    <nav class="navbar">
+        <a href="index.html">♡ Home</a>
+        <a href="pagina2.html" class="active">Pagina 2</a>
+        <a href="pagina3.html">Pagina 3</a>
+    </nav>
 
+    <!-- Titel -->
+    <header class="hero">
+        <h1>♡ Het binaire stelsel ♡</h1>
+        <p>Welkom op mijn tweede pagina!</p>
+    </header>
 
-   </body>
+    <!-- Informatie -->
+    <main class="container">
+
+        <section class="card white">
+            <h2>♡ Wat is het binaire stelsel?</h2>
+            <p>
+                Het binaire stelsel is een manier om getallen te schrijven
+                met alleen de cijfers 0 en 1. Computers gebruiken dit stelsel
+                om informatie te verwerken en op te slaan.
+            </p>
+        </section>
+
+        <section class="card yellow">
+            <h2>💻 De cijfers 0 en 1</h2>
+            <p>
+                In het binaire stelsel gebruik je alleen nullen en enen.
+                Een 0 kan bijvoorbeeld uit staan betekenen en een 1 aan.
+                Computers werken met elektrische signalen.
+            </p>
+        </section>
+
+        <section class="card yellow">
+            <h2>☆ Voorbeeld: van binair naar decimaal</h2>
+            <p>
+                Het binaire getal 101 betekent in het decimale stelsel 5.
+                Je rekent dit uit met de plaatswaarden:
+            </p>
+            <p class="example">
+                1 × 4 + 0 × 2 + 1 × 1 = 5
+            </p>
+        </section>
+
+        <section class="card white">
+            <h2>♡ Plaatswaarden</h2>
+            <p>
+                Van rechts naar links zijn de plaatswaarden 1, 2, 4, 8, 16,
+                32 enzovoort. Elke plaatswaarde is twee keer zo groot als
+                die rechts ervan.
+            </p>
+            <p class="example">
+                Binair:  1  0  1  1<br>
+                Waarde:  8  4  2  1<br>
+                Uitkomst: 8 + 0 + 2 + 1 = 11
+            </p>
+        </section>
+
+        <section class="card white">
+            <h2>♡ Waarom gebruiken computers binair?</h2>
+            <p>
+                Computers werken met elektronische schakelingen die
+                twee toestanden kunnen herkennen. Daarom is het handig
+                om met 0 en 1 te werken.
+            </p>
+        </section>
+
+        <section class="card yellow">
+            <h2>🌼 Oefenvraag</h2>
+            <p>Welk decimaal getal is 110 in het binaire stelsel?</p>
+            <details>
+                <summary>Bekijk het antwoord</summary>
+                <p>110 = 1 × 4 + 1 × 2 + 0 × 1 = 6.</p>
+            </details>
+        </section>
+
+    </main>
+
+    <!-- Voettekst -->
+    <footer>
+        <p>♡ Mijn website over het binaire stelsel ♡</p>
+        <a href="index.html">Home</a> |
+        <a href="pagina2.html">Pagina 2</a> |
+        <a href="pagina3.html">Pagina 3</a>
+    </footer>
+
+</body>
 </html>
