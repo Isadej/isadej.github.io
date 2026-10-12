@@ -3,150 +3,208 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pagina 4 - Pink & Butter Yellow</title>
+  <title>Samenvatting kleurenmodel</title>
 
   <style>
-    :root {
-      --pink: #F8C9D4;
-      --butter: #FFF0A8;
-      --cream: #FFF9F5;
-      --dusty: #DDA6B5;
-      --text: #634A50;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
     body {
       margin: 0;
-      font-family: "Trebuchet MS", Arial, sans-serif;
-      background: var(--cream);
-      color: var(--text);
+      font-family: Arial, sans-serif;
+      background-color: #FFF9F5;
+      color: #59454A;
+      line-height: 1.7;
     }
 
     header {
-      padding: 25px;
+      background-color: #F8C9D4;
       text-align: center;
-      background: var(--pink);
+      padding: 30px 15px;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #59454A;
     }
 
     nav {
-      padding: 16px;
+      background-color: #FFF0A8;
       text-align: center;
-      background: white;
+      padding: 15px;
     }
 
     nav a {
-      color: var(--text);
+      color: #59454A;
       text-decoration: none;
       font-weight: bold;
     }
 
     main {
-      max-width: 900px;
-      margin: 40px auto;
+      max-width: 850px;
+      margin: 30px auto;
       padding: 20px;
     }
 
-    .hero {
-      background: var(--butter);
-      border-radius: 25px;
-      padding: 45px 20px;
-      text-align: center;
+    section {
+      background-color: white;
+      padding: 22px;
+      margin-bottom: 20px;
+      border-radius: 16px;
+      box-shadow: 0 3px 10px #00000008;
     }
 
-    .hero h2 {
-      font-size: 36px;
+    h2 {
+      color: #C47791;
     }
 
-    .palette {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 16px;
-      margin-top: 30px;
+    .highlight {
+      background-color: #FFF0A8;
+      padding: 18px;
+      border-radius: 12px;
+    }
+
+    .colors {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
     }
 
     .color {
-      padding: 30px 20px;
-      border-radius: 18px;
-    }
-
-    .pink { background: var(--pink); }
-    .yellow { background: var(--butter); }
-    .cream { background: white; }
-    .dusty { background: var(--dusty); }
-
-    .home-button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 13px 24px;
-      border-radius: 25px;
-      background: var(--pink);
-      color: var(--text);
-      text-decoration: none;
+      flex: 1;
+      padding: 18px 5px;
+      text-align: center;
+      border-radius: 10px;
+      font-size: 13px;
       font-weight: bold;
     }
 
+    .rgb { background: #F8C9D4; }
+    .cmyk { background: #FFF0A8; }
+    .hex { background: #E8DDF8; }
+
     footer {
-      margin-top: 40px;
-      padding: 25px;
-      background: var(--pink);
       text-align: center;
+      background-color: #F8C9D4;
+      padding: 20px;
+      margin-top: 30px;
     }
 
-    @media (max-width: 550px) {
-      .palette {
-        grid-template-columns: 1fr;
+    @media (max-width: 500px) {
+      .colors {
+        flex-direction: column;
       }
     }
   </style>
 </head>
 
 <body>
+
   <header>
-    <h1>♡ My Pastel World ♡</h1>
-    <p>Pagina 4 — Mijn kleurenmodel</p>
+    <h1>Samenvatting: Kleurenmodellen</h1>
+    <p>Wat zijn kleurenmodellen en waarvoor gebruik je ze?</p>
   </header>
 
   <nav>
-    <a href="index.html">⌂ Terug naar homepage</a>
+    <a href="index.html">♡ Terug naar de homepage</a>
   </nav>
 
   <main>
-    <section class="hero">
-      <h2>Pink & Butter Yellow 🎀</h2>
-      <p>Een zachte, lieve en zonnige kleurencombinatie.</p>
-      <a class="home-button" href="index.html">
-        Terug naar home ♡
-      </a>
+
+    <section>
+      <h2>1. Wat is een kleurenmodel?</h2>
+      <p>
+        Een kleurenmodel is een systeem waarmee kleuren worden beschreven
+        en weergegeven met behulp van getallen of kleurwaarden.
+        Het helpt computers, camera's, printers en andere apparaten om
+        kleuren te maken en te herkennen.
+      </p>
     </section>
 
-    <section class="palette">
-      <div class="color pink">
-        <h3>Light Pink 🌸</h3>
-        <p>#F8C9D4</p>
+    <section>
+      <h2>2. Waarom gebruiken we kleurenmodellen?</h2>
+      <p>
+        Kleurenmodellen zorgen ervoor dat kleuren digitaal kunnen worden
+        opgeslagen, aangepast en weergegeven. Ze zijn belangrijk bij
+        het ontwerpen van websites, het bewerken van foto's en het
+        afdrukken van afbeeldingen.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. Verschillende soorten kleurenmodellen</h2>
+
+      <div class="highlight">
+        <h3>RGB</h3>
+        <p>
+          RGB staat voor rood, groen en blauw. Dit model wordt gebruikt
+          op schermen, zoals computers, televisies en smartphones.
+          Door deze drie lichtkleuren te mengen, ontstaan andere kleuren.
+        </p>
       </div>
 
-      <div class="color yellow">
-        <h3>Butter Yellow ☀️</h3>
-        <p>#FFF0A8</p>
+      <div class="highlight" style="margin-top: 15px;">
+        <h3>CMYK</h3>
+        <p>
+          CMYK staat voor cyaan, magenta, geel en zwart.
+          Dit kleurenmodel wordt vooral gebruikt bij printers.
+          De kleuren worden gemengd met inkt om afbeeldingen op papier
+          af te drukken.
+        </p>
       </div>
 
-      <div class="color cream">
-        <h3>Cream White ☁️</h3>
-        <p>#FFF9F5</p>
-      </div>
-
-      <div class="color dusty">
-        <h3>Dusty Pink 🌷</h3>
-        <p>#DDA6B5</p>
+      <div class="highlight" style="margin-top: 15px;">
+        <h3>HEX</h3>
+        <p>
+          HEX is een kleurcode die bestaat uit een hekje en zes tekens,
+          bijvoorbeeld #F8C9D4. Deze codes worden veel gebruikt bij
+          websites en in CSS om specifieke kleuren aan te geven.
+        </p>
       </div>
     </section>
+
+    <section>
+      <h2>4. Het verschil tussen RGB en CMYK</h2>
+      <p>
+        RGB werkt met licht en wordt gebruikt voor digitale schermen.
+        Hoe meer lichtkleuren worden gecombineerd, hoe dichter de kleur
+        bij wit komt. CMYK werkt met inkt en wordt gebruikt voor drukwerk.
+        Bij het mengen van inkt wordt de kleur doorgaans donkerder.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Voorbeelden van kleurcodes</h2>
+      <p>Hier zie je voorbeelden van kleuren die je met HEX-codes kunt aanduiden.</p>
+
+      <div class="colors">
+        <div class="color rgb">
+          Lichtroze<br>#F8C9D4
+        </div>
+
+        <div class="color cmyk">
+          Botergeel<br>#FFF0A8
+        </div>
+
+        <div class="color hex">
+          Lichtpaars<br>#E8DDF8
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Conclusie</h2>
+      <p>
+        Een kleurenmodel is een manier om kleuren te beschrijven en
+        weer te geven. RGB wordt gebruikt voor schermen, CMYK voor
+        drukwerk en HEX-codes voor onder andere websites.
+        Het juiste kleurenmodel kiezen is belangrijk om kleuren
+        zo goed mogelijk weer te geven op het juiste medium.
+      </p>
+    </section>
+
   </main>
 
   <footer>
-    Made with love ♡
+    <p>Samenvatting kleurenmodellen</p>
   </footer>
+
 </body>
 </html>
